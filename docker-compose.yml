@@ -19,7 +19,7 @@ services:
       - postgres:/var/lib/postgresql/data
     # ポートの指定（HOST:CONTAINER）
     ports:
-      - 5432:5432
+      - 5050:5432
 # データの永続化
 volumes:
   postgres:
